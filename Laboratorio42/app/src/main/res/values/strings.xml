@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Laboratorio4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigate_to_b">Navigate to b</string>
+    <string name="flores">flores</string>
+    <string name="antigua">antigua</string>
+    <string name="tikal">tikal</string>
+    <string name="bio">\n\nGuatemala officially the Republic of Guatemala (Spanish: República de Guatemala),
+        \n\nis a country in Central America bordered by Mexico to the north and west,
+        \n\nBelize and the Caribbean to the northeast, Honduras to the east, El Salvador
+        \n\nto the southeast and the Pacific Ocean to the south. With an estimated
+        \n\npopulation of around 17.2 million, it is the most populous country in
+        \n\nCentral America.\n\n</string>
+    <string name="write_your_name">write_your_name</string>
+    <string name="name">name</string>
+    <string name="guatemala">guatemala</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Comment">Comment</string>
+    <string name="Regresar">Regresar</string>
+    <string name="carlos_alberto_raxtum_ramos">Carlos Alberto Raxtum Ramos}</string>
+    <string name="infos">yo soy Carlos Alberto Raxtum Ramos, un estudiante de la univerdidad del
+        valle de guatemala que actualmente estoy cursando 2do año en la carrera de ciencias de
+        la computacion y tecnologias de la informacion</string>
+    <string name="biografia">Biografia</string>
+    <string name="tikal_peten">Tikal, Peten</string>
+    <string name="el_corazon_del_mundo_maya">El corazon del mundo maya</string>
+    <string name="Antigua_Guatemala">Antigua Guatemala</string>
+    <string name="la_ciudad_colonial">La ciudad colonial</string>
+    <string name="descripcion_Antigua">"Antigua Guatemala (Spanish pronunciation: [anˈtiɣwa ɣwateˈmala]), commonly "
+                "referred to as just Antigua or la Antigua, is a city in the central highlands of "
+                "Guatemala known for its preserved Spanish Baroque-influenced architecture as well "
+                "as a number of ruins of colonial churches. It served as the capital of the Kingdom "
+                "of Guatemala. It has been designated a UNESCO World Heritage site.\n"
+                "\n"
+                "Antigua Guatemala serves as the municipal seat for the surrounding municipality of "
+                "the same name. It also serves as the departmental capital of Sacatepéquez Department."</string>
+    <string name="flores_peten">Flores Peten</string>
+    <string name="bella_ciudad">Bella ciudad</string>
+    <string name="Descripcion_flores">"Flores is the capital of the Petén Department, Guatemala's landlocked,"
+                " northernmost department. The population is 13,700 (2003).
+                "Flores is the seat of the municipality of Flores (population 22,600).
+                "Its Catedral Nuestra Señora de Los Remedios y San Pablo Itzá is the cathedral "
+                "episcopal see of the Apostolic Vicariate of El Petén (formerly a territorial"
+                " prelature). +</string>
+    <string name="descripcion_tikal">Tikal (/tiˈkɑːl/) (Tik’al in modern Mayan orthography) is the ruin of an "
+                "ancient city, which was likely to have been called Yax Mutal, found in a rainforest "
+                "in Guatemala.[2] It is one of the largest archaeological sites and urban centers "
+                "of the pre-Columbian Maya civilization. It is located in the archaeological region "
+                "of the Petén Basin in what is now northern Guatemala. </string>
+    <string name="su_comentario_a_sido_enviado_exitosamente">Su comentario a sido enviado exitosamente</string>
+
+</resources>

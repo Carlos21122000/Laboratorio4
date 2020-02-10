@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentC">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="417dp"
+        android:layout_height="170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/antigua" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="408dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/Antigua_Guatemala"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="98dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/la_ciudad_colonial"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/txtcommentC"
+        android:layout_width="254dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="84dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/Comment"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/bttEnviar2"
+        android:layout_width="88dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcommentC" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="213dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:context="@=(MyName.description)">
+
+        <ScrollView
+            android:id="@+id/bio1"
+            android:layout_width="match_parent"
+            android:layout_height="185dp">
+
+            <TextView
+                android:id="@+id/txtAntigua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/descripcion_Antigua" />
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
